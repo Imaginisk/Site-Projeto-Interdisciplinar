@@ -1,0 +1,267 @@
+/* Gerais */
+body{
+    font-family: 'Roboto',sans-serif;
+    /*background-color: #f9db64;*/
+    
+}
+.row{
+    margin: 0;
+}
+
+.container{
+    padding: 70px 0;
+}
+
+p,li{
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+}
+
+/* Barra de navegação */
+
+header, .navbar{
+    background-image: url("Nuvens.png");
+    background-color: #b2e8f8;
+}
+#nav-container{
+    padding-top:0;
+    padding-bottom: 0;
+}
+#logo{
+    width: 75px;
+}
+/* Slider */
+.container-fluid{
+    padding: 0;
+}
+#mainSlider .carousel-inner, #mainSlider .carousel-item{
+    height: 90vh;
+}
+#mainSlider .carousel-caption{
+    top: 30%;
+}
+
+#mainSlider .carousel-caption h2{
+    font-size: 50px;
+    margin-bottom: 30px
+}
+#mainSlider .carousel-caption p{
+    font-size: 45px;
+    font-weight: 300;
+    margin-bottom: 100px;
+    color: rgb(0, 0, 0);
+}
+
+.main-btn{
+    background-color: #65DAF9;
+    color: #FFF;
+    text-transform: uppercase;
+    width: 200px;
+    height: 60px;
+    padding: 10px 20px;
+    border-radius: 30px;
+    border: 3px solid transparent;
+    transition: .5s;
+
+}
+.main-btn:hover{
+    text-decoration:none;
+    color: rgb(0, 0, 0);
+    background-color:  transparent;
+    border-color: #65DAF9;
+}
+
+/*Sobre a empresa*/
+
+#about-area{
+    background-image: url("CupcakeWall.jpg");
+    background-color: #F9F9F9;
+}
+
+.main-title{
+    color:#2c565f;
+    margin: 0 0 65px 0;
+    font-size: 40px;
+    text-align: center;
+}
+
+.main-title::after{
+    content: "";
+    border-top: 2px solid rgb(255, 255, 255);
+    width: 15%;
+    position: absolute;
+    top: 60px;
+    left: 42.5%;
+}
+
+.about-title{
+    font-size: 170px;
+    color: #2c565f;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#about-list {
+    list-style: none;
+    padding-left: 0;
+}
+#about-list li{
+    font-size: 15px;
+    line-height: 30px;
+}
+#about-list i{
+    font-size: 20px;
+    color: #f54ca9;
+    margin-right: 15px;
+    
+}
+
+/*Serviços*/
+
+.service-box{
+    text-align: left;
+    margin-bottom: 50px;
+}
+
+.service-box i, .service-box h4{
+    transition: .5s;
+}
+
+.service-box i{
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #444;
+}
+
+.service-box h4{
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.service-box:hover > i, .service-box:hover > h4{
+    color: #65DAF9;
+}
+/* Dados */
+.circle-box div{
+    padding: 0 40px;
+}
+
+.progressbar-text{
+    font-weight: bold;
+    font-size: 32px;
+}
+
+#data-area p{
+    color: #FFF;
+    text-align: center;
+    font-size: 26px;
+    margin-top:20px;
+}
+/* Time */
+.card-body{
+    text-align: center;
+}
+
+/*rodapé*/
+
+#contact-area{
+    text-align: center;
+
+}
+.contact-box{
+    padding-bottom: 50px;
+    margin-bottom:50px;
+    border-bottom: 1px solid #3EC1D5;
+}
+.contact-box i{
+    color: #444;
+    border: solid 1px #444;
+    border-radius: 50%;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.contact-box p{
+    font-size: 16px;
+}
+
+.contact-title{
+    font-weight: bold;
+    color: #3EC1D5;
+}
+
+#msg-box p{
+    font-size: 22px;
+
+}
+
+#contact-form input[type="text"], #contact-form input[type="email"], #contact-form textarea{
+    margin-bottom: 15px;
+    border-radius: 0px;
+
+}
+
+#contact-form .main-btn{
+    width: 120px;
+    height: 50px;
+}
+
+#contact-form .main-btn:hover{
+    color: #3EC1D5;
+}
+
+/* copy */
+
+#copy-area{
+    background-color: #F1F1F1;
+}
+#copy-area .containter{
+    padding: 10px 0;
+    text-align: center;
+}
+
+#copy-area .container p{
+    margin-bottom: 0px;
+}
+
+#copy-area .container a{
+    font-weight: bold;
+    color: #444;
+}
+
+#copy-area .container a:hover {
+    text-decoration: none;
+    color: #3EC1D5;
+}
+
+/* Portfólio */
+
+.project-box{
+    margin-bottom: 30px;
+}
+
+#filter-btn-box{
+    margin-bottom: 50px;
+    text-align: center;
+
+}
+#portfolio-area .filter-btn{
+    color: #444;
+    border: 1px solid #444;
+    background-color: transparent;
+    text-transform: none;
+    margin: 0 15px;
+    min-width: 100px;
+    width: auto;
+    height: 40px;
+    padding: 0 20px;
+}
+
+#portfolio-area .filter-btn.active,#portfolio-area .filter-btn:hover{
+    color: #FFF;
+    background-color: #65DAF9;
+    border-color: #65DAF9;
+}
